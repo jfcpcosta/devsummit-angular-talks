@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css');
+
+body {
+  background: #2c2e3d;
+}
+
+.ui.menu {
+  background: rgb(255, 91, 0);
+}
+
+.ui.header {
+  color: #fff;
+}
+
+form.ui.segment.form {
+  background: rgb(255, 91, 0);
+}
+
+form.form:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.votes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: #e6e6e6;
+  padding: 1em 0;
+  border-radius: 5px;
+}
+
+.ui.grid.posts {
+  padding: 2em;
+}
